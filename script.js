@@ -9,8 +9,6 @@ for (let i=0; i < foods.length; i++) {
 }
 
 
-
-
 // 3. Print out the rating for each food with a ranking like:
 // "My #1 favorite food is Ramen" (copy/paste for all items)
 // "My #2 favorite food is Sushi"
@@ -18,9 +16,6 @@ for (let i=0; i < foods.length; i++) {
 for (let i = 0; i < foods.length; i++) {
   console.log("My #"+ (i + 1) + " favorite food is " + foods[i]);
 }
-
-
-
 
 
 // 4a. Create a function printFoodRecommendation(foodName) that prints out the following for the foodName provided
